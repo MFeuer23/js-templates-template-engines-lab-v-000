@@ -27,4 +27,6 @@ function createPost() {
   let author = document.getElementById('postAuthor').value;
   
   let postTemplate = document.getElementById('post-template').innerHTML;
+  
+  let templateFn = _.template(postTemplate);
 }
