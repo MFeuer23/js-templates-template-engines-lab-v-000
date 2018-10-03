@@ -29,10 +29,8 @@ function createPost() {
   let postTemplate = document.getElementById('post-template').innerHTML;
   
   let templateFn = _.template(postTemplate);
-  
-  let postDiv = document.getElementById('post-template')
-  
-  let headerDiv = document.getElementById('header');
+
+  let headerDiv = document.getElementById('post-template header');
   let footerDiv = document.getElementById('footer');
  
   //execute template function with JSON object for the interpolated values
