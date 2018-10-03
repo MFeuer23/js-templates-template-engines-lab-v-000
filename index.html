@@ -38,10 +38,10 @@
     </form> 
     
     <script id="comments-template" type="text/x-lodash-template">
-      <script id="comment-template" type="text/x-lodash-template">
+      <div id="comment-template" type="text/x-lodash-template">
             <div class="comment"><%- comment %></div>
             <div class="footer"><%- commenter %></div>
-      </script>
+      </div>
       <form onsubmit="postComment();return false;">
         <h3>Comment Form</h3>
         Name: <input type="text" id="commenterName"><br>
