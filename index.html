@@ -37,7 +37,7 @@
         <input type="submit">
     </form> 
     
-    <div id="comments-template" type="text/x-lodash-template">
+    <script id="comments-template" type="text/x-lodash-template">
       
       <form onsubmit="postComment();return false;">
         <h3>Comment Form</h3>
@@ -45,7 +45,7 @@
         Comment: <input type="textarea" id="commentText"><br>
         <input type="submit">
       </form> 
-    </div>
+    </script>
     <script id="comment-template" type="text/x-lodash-template">
           <div class="comment"><%- comment %></div>
           <div class="footer"><%- commenter %></div>
