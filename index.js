@@ -36,5 +36,5 @@ function createPost() {
   let templateHTML = templateFn({ title: title, body: body, author: author });
  
   //append rather than replace!
-  commentsDiv.innerHTML += templateHTML;
+  postsDiv.innerHTML += templateHTML;
 }
