@@ -20,3 +20,7 @@ function postComment() {
   //append rather than replace!
   commentsDiv.innerHTML += templateHTML;
 }
+
+function createPost() {
+  
+}
