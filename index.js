@@ -35,7 +35,9 @@ function createPost() {
  
   //execute template function with JSON object for the interpolated values
   let templateHeadHTML = templateFn({ title: title, body: body});
+   let templateFootHTML = templateFn({ author: author});
  
   //append rather than replace!
-  postsDiv.innerHTML += templateHTML;
+  headerDiv.innerHTML += templateHeadHTML;
+  footerDiv.innerHTML += templateFootHTML;
 }
