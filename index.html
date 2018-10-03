@@ -30,9 +30,10 @@
     </script>
     
     <form id="post-form" onsubmit="postComment();return false;">
-        Title: <input type="title" id="postTitle"><br>
-        Body: <input type="textarea" id="commentText"><br>
+        Title: <input type="text" id="postTitle"><br>
+        Body: <input type="textarea" id="postBody"><br>
         <input type="submit">
+        Author: <input type="text" id="postAuthor"><br>
     </form> 
     
     <div id="comments-template" type="text/x-lodash-template">
