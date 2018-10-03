@@ -30,6 +30,8 @@ function createPost() {
   
   let templateFn = _.template(postTemplate);
   
+  let postDiv = document.getElementById('post-template')
+  
   let headerDiv = document.getElementById('header');
   let footerDiv = document.getElementById('footer');
  
