@@ -24,4 +24,5 @@ function postComment() {
 function createPost() {
   let title = document.getElementById('commenterName').value;
   let body = document.getElementById('commentText').value;
+  let author = document.getElementById('commentText').value;
 }
