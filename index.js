@@ -12,7 +12,7 @@ function postComment() {
   //create template function
   let templateFn = _.template(commentTemplate);
  
-  let commentsDiv = document.getElementById('comments');
+  let commentsDiv = document.getElementById('comments-template');
  
   //execute template function with JSON object for the interpolated values
   let templateHTML = templateFn({ comment: comment, commenter: commenter });
