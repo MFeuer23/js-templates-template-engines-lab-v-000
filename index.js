@@ -33,7 +33,7 @@ function createPost() {
   let postsDiv = document.getElementById('posts');
  
   //execute template function with JSON object for the interpolated values
-  let templateHTML = templateFn({ comment: comment, commenter: commenter });
+  let templateHTML = templateFn({ title: title, body: body, author: author });
  
   //append rather than replace!
   commentsDiv.innerHTML += templateHTML;
